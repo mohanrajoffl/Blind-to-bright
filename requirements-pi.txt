@@ -1,0 +1,6 @@
+# Extra packages for the Raspberry Pi target. Install AFTER: pip install -r requirements.txt
+# Check OS / Python compatibility on the Pi first.
+opencv-python>=4.9
+pyserial>=3.5          # NEO-6M GPS over serial
+# Not pinned here - install from official instructions for your Pi OS / accelerator:
+#   YOLOv8-Nano / TFLite runtime, MiDaS-Tiny, Piper TTS, Vosk STT, Tesseract / PaddleOCR
